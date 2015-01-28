@@ -6,7 +6,7 @@ Plugin URI: http://www.netbiscuits.com/wordpress-analytics-plugin/
 Tags: Analytics, analytics dashboard, dashboard, google analytics, google analytics widget, multisite, realtime, tracking, mobile, mobile analytics, device detection, statistics, netbiscuits, tracking code, code, wordpress analytics, simple, visitors, conversions, bandwidth, phones, devices, iphone, android, Samsung, feature phone
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
