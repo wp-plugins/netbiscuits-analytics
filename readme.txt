@@ -28,24 +28,24 @@ Thank you for your interest in Netbiscuits. See [Netbiscuits.com](http://www.net
 
 == Installation ==
 
-To install automatically from within WP's Admin:
-1. In WP's Admin, go to the 'Plugins' page
-2. Click 'Add New' & search for 'Netbiscuits Analytics'
-3. From the search results, select and install the plugin
+To install automatically from within WP's Admin:  
+1. In WP's Admin, go to the 'Plugins' page  
+2. Click 'Add New' & search for 'Netbiscuits Analytics'  
+3. From the search results, select and install the plugin  
 
-Or if you prefer to install manually:
-1. Download this plugin to your computer (you will receive a single ZIP file)
-2. Unzip the ZIP file
-3. Upload the ZIP file contents to the \`/wp-content/plugins/\` directory
+Or if you prefer to install manually:  
+1. Download this plugin to your computer (you will receive a single ZIP file)  
+2. Unzip the ZIP file  
+3. Upload the ZIP file contents to the \`/wp-content/plugins/\` directory  
 
-For either case:
-4. Once installed, go to the 'Plugins' page
-5. Scroll down to 'Netbiscuits Analytics'
-6. Click the 'Activate' link under the plugin's name
-7. Once activated, go to 'Settings' > 'Netbiscuits Analytics'
-8. Follow the instructions at the top of the page to copy & paste your Analytics code
-9. Save the code
-10. Your site should now include your Analytics code near the bottom of all pages
+For both cases:  
+4. Once installed, go to the 'Plugins' page  
+5. Scroll down to 'Netbiscuits Analytics'  
+6. Click the 'Activate' link under the plugin's name  
+7. Once activated, go to 'Settings' > 'Netbiscuits Analytics'  
+8. Follow the instructions at the top of the page to copy & paste your Analytics code  
+9. Save the code  
+10. Your site should now include your Analytics code near the bottom of all pages  
 
 
 == Frequently Asked Questions ==
@@ -61,6 +61,9 @@ We have included some key questions asked below but for a more comprehensive lis
 
 = Can I use Netbiscuits Mobile Analytics alongside my current web analytics software? =
 * Absolutely. Netbiscuits Mobile Analytics is an ideal complement to any other analytics product as it offers new data and unique insights into the highly diverse and complex web visitor landscape across tablets, smartphones, PCs, feature phones, Smart TVs, game consoles and more. You can also import Netbiscuits device data directly into your current solution for a more detailed and accurate report. However, we believe the uniquely visual and actionable dashboards we provide in our tool make it far more powerful to use both together.
+
+= Why is it important to know your web traffic? =
+`[youtube https://www.youtube.com/watch?v=XxyO7dcyn7A]`
 
 = Where do I find my Analytics tracking code snippet? =
 * First you need to register for a free account [here](https://my.netbiscuits.com/). It's quick, easy and we don't require any payment details. To obtain your code, you will need to [sign-in](https://my.netbiscuits.com/). From your first entry you will be presented with a screen to obtain your analytics code but you can also get it by visiting [the Detection Code page](https://my.netbiscuits.com/account-mgmt/detectioncode).
@@ -88,8 +91,6 @@ We have included some key questions asked below but for a more comprehensive lis
 2. Screen Sizes by Bounce Tile example
 
 3. Bandwidth by Bounce Tile example
-
-4. `[youtube https://www.youtube.com/watch?v=XxyO7dcyn7A]`
 
 
 == Changelog ==
