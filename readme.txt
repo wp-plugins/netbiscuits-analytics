@@ -19,9 +19,9 @@ Mobile is the fastest-growing communication channel between you and your custome
 
 Netbiscuits Mobile Analytics is unique because it's based on more than 8000 device profiles - both mobile and desktop - and 500 device-feature data points. Crucially, it also provides you with user context such as bandwidth speed, location and screen orientation - data which is not available in most other analytics tools. We've harnessed our extensive experience with mobile data to create unique dashboard reports which interpret real-time data into easy-to-digest insights. Our uniquely visual dashboards enable you to evaluate Traffic, Bounce and Conversion KPIs without the need for a Data Scientist or a background in analytics. No other analytics tools make it as easy or as clear to interpret your data.
 
-This plug-in allows you to simply drop your Netbiscuits Mobile Analytics one-time tracking code snippet directly into your WordPress website and begin collecting data. View your own visualisations in minutes by visiting [https://my.netbiscuits.com/](https://my.netbiscuits.com/) and see the insights provided by your web traffic.
+This plug-in allows you to simply drop your Netbiscuits Mobile Analytics one-time tracking code snippet directly into your WordPress website and begin collecting data. View your own visualisations in minutes by visiting [my.netbiscuits.com](https://my.netbiscuits.com/) and see the insights provided by your web traffic.
 
-The Netbiscuits Mobile Analytics plug-in requires you to sign up for a free account at [Netbiscuits.com](https://my.netbiscuits.com/). Once signed up, you are feel free to play around with our demo data to get a feel for the service provided, then use this plug-in to effortlessly install the code required onto your website.
+The Netbiscuits Mobile Analytics plug-in requires you to sign up for a free account at [my.netbiscuits.com](https://my.netbiscuits.com/). Once signed up, you are feel free to play around with our demo data to get a feel for the service provided, then use this plug-in to effortlessly install the code required onto your website.
 
 Thank you for your interest in Netbiscuits. See [Netbiscuits.com](http://www.netbiscuits.com/) for more information.
 
