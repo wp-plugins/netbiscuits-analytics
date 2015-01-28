@@ -95,11 +95,17 @@ We have included some key questions asked below but for a more comprehensive lis
 
 == Changelog ==
 
+= 1.1 =
+* Renamed SVG icon and removed old (mis-named) banner image
+
 = 1.0 =
 * Initial Launch
 
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Nothing, just renamed SVG icon and removed old (mis-named) banner image
 
 = 1.0 =
 * Nothing to note yet
