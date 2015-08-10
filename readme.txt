@@ -5,9 +5,9 @@ Author URI: http://www.netbiscuits.com/
 Plugin URI: http://www.netbiscuits.com/wordpress-analytics-plugin/
 Tags: Analytics, analytics dashboard, dashboard, google analytics, google analytics widget, multisite, realtime, tracking, mobile, mobile analytics, device detection, statistics, netbiscuits, tracking code, code, wordpress analytics, simple, visitors, conversions, bandwidth, phones, devices, iphone, android, Samsung, feature phone
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.2
-License: License: GPLv3
+Tested up to: 4.2.4
+Stable tag: 1.3
+License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Easy installation of Netbiscuits Mobile Analytics. Visualize your mobile data. Free trial. See www.netbiscuits.com for more information.
@@ -23,29 +23,29 @@ This plug-in allows you to simply drop your Netbiscuits Mobile Analytics one-tim
 
 The Netbiscuits Mobile Analytics plug-in requires you to sign up for a free account at [my.netbiscuits.com](https://my.netbiscuits.com/). Once signed up, you are feel free to play around with our demo data to get a feel for the service provided, then use this plug-in to effortlessly install the code required onto your website.
 
-Thank you for your interest in Netbiscuits. See [Netbiscuits.com](http://www.netbiscuits.com/mobile-analytics/) for more information.
+Thank you for your interest in Netbiscuits. See [netbiscuits.com](http://www.netbiscuits.com/mobile-analytics/) for more information.
 
 
 == Installation ==
 
-To install automatically from within WP's Admin:
-1. In WP's Admin, go to the 'Plugins' page
-2. Click 'Add New' & search for 'Netbiscuits Analytics'
-3. From the search results, select and install the plugin
+= To install automatically from within WP's Admin: =
+1. In WP's Admin, go to the 'Plugins' page,
+2. Click 'Add New' & search for 'Netbiscuits Analytics',
+3. From the search results, select and install the plugin,
 
-Or if you prefer to install manually:
-1. Download this plugin to your computer (you will receive a single ZIP file)
-2. Unzip the ZIP file
-3. Upload the ZIP file contents to the \`/wp-content/plugins/\` directory
+= Or if you prefer to install manually: =
+1. Download this plugin to your computer (you will receive a single ZIP file),
+2. Unzip the ZIP file,
+3. Upload the ZIP file contents to the \`/wp-content/plugins/\` directory,
 
-For both cases:
-4. Once installed, go to the 'Plugins' page
-5. Scroll down to 'Netbiscuits Analytics'
-6. Click the 'Activate' link under the plugin's name
-7. Once activated, go to 'Settings' > 'Netbiscuits Analytics'
-8. Follow the instructions at the top of the page to copy & paste your Analytics code
-9. Save the code
-10. Your site should now include your Analytics code near the bottom of all pages
+= Next, for both cases: =
+4. Once installed, go to the 'Plugins' page,
+5. Scroll down to 'Netbiscuits Analytics',
+6. Click the 'Activate' link under the plugin's name,
+7. Once activated, go to 'Settings' > 'Netbiscuits Analytics',
+8. Follow the instructions at the top of the page to copy & paste your Analytics code,
+9. Save the code,
+10. Your site should now include your Analytics code near the bottom of all pages,
 
 
 == Frequently Asked Questions ==
@@ -95,6 +95,9 @@ We have included some key questions asked below but for a more comprehensive lis
 
 == Changelog ==
 
+= 1.3 =
+* Minor text changes in readme.txt, and verified Tested up to version
+
 = 1.2 =
 * Updated last link in description to lead to Mobile Analytics page on Netbisctuis website.
 
@@ -107,11 +110,14 @@ We have included some key questions asked below but for a more comprehensive lis
 
 == Upgrade Notice ==
 
-= 1.1 =
-* Nothing, just chamged link in readme.txt
+= 1.3 =
+* Nothing.
+
+= 1.2 =
+* Nothing.
 
 = 1.1 =
-* Nothing, just renamed SVG icon and removed old (mis-named) banner image
+* Nothing.
 
 = 1.0 =
-* Nothing to note yet
+* Nothing.
