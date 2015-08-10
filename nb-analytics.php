@@ -2,7 +2,7 @@
 /*
    Plugin Name: Netbiscuits Analytics
    Description: Easy installation of Netbiscuits Mobile Analytics. Visualize your mobile data. Free trial. See www.netbiscuits.com for more information.
-   Version: 1.0
+   Version: 1.4
    Author: Netbiscuits
    Text Domain: nb_analytics_code
 */
@@ -32,10 +32,22 @@ class nb_analytics_options_page {
         if ( !is_admin() ) {
             add_action( 'wp_footer', array( $this, 'nb_analytics_add_code_to_page' ) );
         } else {
+            $plugin = plugin_basename( __FILE__ );
+            add_filter( 'plugin_action_links_'.$plugin, array( $this, 'nb_add_settings_link' ) );
             add_action( 'admin_menu', array( $this, 'nb_add_menu_items' ) );
         }
     } // __construct
 
+
+    /**
+     * Add Settings link to plugin on PLugins page
+     */
+    public function nb_add_settings_link( $links ) {
+        $settings_link = '<a href="options-general.php?page=netbiscuits-analytics">Settings</a>';
+        array_unshift( $links, $settings_link );
+        return $links;
+    } // nb_add_settings_link
+ 
 
     /**
      * Add Admin Menu links
@@ -43,7 +55,7 @@ class nb_analytics_options_page {
     public function nb_add_menu_items() {
 
         // set-up localitzation
-        $plugin_dir = basename(dirname(__FILE__));
+        $plugin_dir = basename( dirname( __FILE__ ) );
         load_plugin_textdomain( $this->nb_code_field_name, false, $plugin_dir );
 
         // init admin page
@@ -63,18 +75,18 @@ class nb_analytics_options_page {
 
         // verify the logged-in user has the proper permission to see this page
         if ( !current_user_can( 'manage_options' ) )  {
-            wp_die( __('You do not have sufficient permissions to access this page.', $nb_code_field_name ) );
+            wp_die( __( 'You do not have sufficient permissions to access this page.', $nb_code_field_name ) );
         }
 
         // placeholder for "Saved" message
         $msg = '';
 
         // if the form has been submitted...
-        if ( isset($_POST[ $hidden_field_name ]) && $_POST[ $hidden_field_name ] == 'Y' ) {
+        if ( isset( $_POST[ $hidden_field_name ] ) && $_POST[ $hidden_field_name ] == 'Y' ) {
 
             // verify the existence of the nonce field
             if ( !isset( $_POST[$nb_code_field_name.'_nonce'] ) || !wp_verify_nonce( $_POST[$nb_code_field_name.'_nonce'], $nb_code_field_name.'_action' ) ) {
-                wp_die( __('You do not have sufficient permissions to access this page.', $nb_code_field_name ) );
+                wp_die( __( 'You do not have sufficient permissions to access this page.', $nb_code_field_name ) );
             }
 
             // update the the database...
@@ -84,7 +96,7 @@ class nb_analytics_options_page {
             delete_transient( $this->nb_code_field_name );
 
             // and notify the user
-            $msg = '<div class="updated"><p>' . __('The code has been saved.', $nb_code_field_name ) . '</p></div>'.PHP_EOL;
+            $msg = '<div class="updated"><p>' . __( 'The code has been saved.', $nb_code_field_name ) . '</p></div>'.PHP_EOL;
 
         }
 
@@ -128,14 +140,14 @@ class nb_analytics_options_page {
                         <div class="inside">
                             <?php echo $msg; ?>
                             <p>
-                                <?php echo __('To add your Netbiscuits Analytics tracking code to this website,
+                                <?php echo __( 'To add your Netbiscuits Analytics tracking code to this website,
                                 please <a href="https://my.netbiscuits.com/account-mgmt/detectioncode" title="This link will open your Netbiscuits Detection Code page, in a new window" target="_blank">copy the code from your account</a>
                                 and paste it below, then click the <strong>Save Changes</strong> buttons.', $nb_code_field_name ); ?>
                             </p>
-                            <label for="<?php echo $nb_code_field_name; ?>"><?php echo __('Paste Code Here', $nb_code_field_name ); ?>:</label>
+                            <label for="<?php echo $nb_code_field_name; ?>"><?php echo __( 'Paste Code Here', $nb_code_field_name ); ?>:</label>
                             <textarea id="<?php echo $nb_code_field_name; ?>" name="<?php echo $nb_code_field_name; ?>"><?php echo $nb_analytics_code; ?></textarea>
                             <p>
-                                <?php wp_nonce_field( $nb_code_field_name.'_action', $nb_code_field_name.'_nonce'); ?>
+                                <?php wp_nonce_field( $nb_code_field_name.'_action', $nb_code_field_name.'_nonce' ); ?>
                                 <input type="submit" name="Submit" class="button-primary" value="<?php esc_attr_e('Save Changes') ?>" />
                             </p>
                         </div>
