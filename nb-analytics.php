@@ -2,7 +2,7 @@
 /*
    Plugin Name: Netbiscuits Analytics
    Description: Easy installation of Netbiscuits Mobile Analytics. Visualize your mobile data. Free trial. See www.netbiscuits.com for more information.
-   Version: 1.0
+   Version: 1.3
    Author: Netbiscuits
    Text Domain: nb_analytics_code
 */
